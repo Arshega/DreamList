@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <ImageView
+        android:id="@+id/imgFood"
+        android:layout_width="162dp"
+        android:layout_height="165dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteY="-19dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Food name"
+        android:textAlignment="center"
+        android:textColor="#0e11d1"
+        android:textSize="17sp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="146dp"
+        android:layout_below="@+id/imgFood"
+        android:layout_alignEnd="@+id/imgFood"
+        android:layout_marginEnd="38dp" />
+
+    <TextView
+        android:text="Price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPrice"
+        android:textSize="17sp"
+        android:textColor="#ce1309"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteY="188dp"
+        tools:layout_editor_absoluteX="54dp"
+        android:layout_below="@+id/txtName"
+        android:layout_alignStart="@+id/txtName"
+        android:layout_marginStart="24dp" />
+</RelativeLayout>
